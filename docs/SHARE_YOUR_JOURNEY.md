@@ -1,0 +1,92 @@
+# Rajasthan Royals — SupeRR Selector Season 2
+## "Share Your Journey": The Story, Data Science, and War Room Thinking Behind Our Solution
+
+**Participant / Team Submission for Round 1**  
+**Hashtags / Handles for Social Media:** @rajasthanroyals | @unstop.world | #SupeRRSelector #RajasthanRoyals #HallaBol
+
+---
+
+### 1. Executive Journey Summary (The Story Behind the Solution)
+
+When Rajasthan Royals released the Round 1 challenge — *Identify the Most Reliable Players Under Pressure* — we recognized immediately that this wasn't just a standard machine learning problem. It was an interrogation of cricket psychology through data. 
+
+In T20 cricket, almost every professional player looks formidable on a flat pitch at 60/0 in the 7th over. But what happens when win probability drops to 45%, the required run rate crosses 11 RPO, or your top order collapses to 28/3 in a knockout game? That is where reputations shatter and true match-winners emerge.
+
+Our journey took us through **200,999 deliveries across 883 matches** (IPL 2022–2026 and T20 Internationals). We built a mathematical framework combining **Gradient Boosted Win Probability Leverage**, **Format-Calibrated Contextual Par (FCCP)**, and **Bayesian Shrinkage Regularization** to discover who Rajasthan Royals should target at the **IPL 2027 Auction**.
+
+---
+
+### 2. The Breakthrough Moment: Cracking the "Baseline Distortion Paradox"
+
+Every great analytics project has a turning point. Ours happened at 2:00 AM while examining why standard models produce flawed cricket rankings.
+
+In our first naive model, we compared each player's economy rate under pressure to their own overall career baseline. Shockingly, **Jasprit Bumrah** ranked 26th! Why? Because Bumrah's baseline economy is superhumanly low (~6.6 RPO). When he bowled extreme death overs under high pressure at 7.49 RPO, the naive model thought he "declined" by -0.88 runs per over! Meanwhile, an erratic bowler who went from 10.5 RPO normally to 9.2 RPO under pressure got rewarded with a "+1.30 improvement".
+
+That was our **"Eureka!" moment**. We realized that pressure cannot be evaluated against an individual's baseline in isolation; it must be evaluated against **Contextual Situational Par**. 
+- In death overs under high pressure, average league economy balloons to **10.4 RPO**. 
+- When Jasprit Bumrah concedes 7.49 RPO, he isn't declining — he is saving **+2.14 runs per over** against what an average bowler concedes in that exact situation!
+- Similarly, we discovered that IPL high-pressure matches average **9.95 RPO**, while T20Is average **9.08 RPO**. By calibrating our model to the format, over, and pressure tier, our system produced unassailable, robust rankings that rocketed elite death bowlers like **Matheesha Pathirana** and **Jasprit Bumrah** to the top of our board.
+
+---
+
+### 3. One Player Pick We Are Backing for Rajasthan Royals at the IPL 2027 Auction
+
+#### 🎯 Our Standout Pick: **Shashank Singh** (Middle-Order Crisis Finisher)
+While global superstars like Quinton de Kock and Jos Buttler confirmed their legendary clutch status in our model, the most exciting tactical discovery for Rajasthan Royals' war room is **Shashank Singh**.
+
+- **The Data:** 
+  - Pressure Average: **48.38**
+  - Pressure Strike Rate: **174.32** (against a format par of 147.8)
+  - 222 pressure balls across 23 matches with +32.8 delta over his baseline.
+- **Why RR Needs Him:** 
+  Rajasthan's top order with Yashasvi Jaiswal and Sanju Samson is explosive, but when early wickets fall, the team has historically faced middle-over inertia. Shashank solves this completely. He possesses the rare dual capability to rebuild during a powerplay collapse and launch immediate sixes in the 19th over alongside Dhruv Jurel.
+
+#### 🎯 Bowling Masterstroke: **Matheesha Pathirana** (Death-Over Wicket Weapon)
+- **The Data:** 
+  - Conceding just **8.15 RPO** against an IPL death-overs par of **9.33** (+1.18 runs saved per over).
+  - Striking at an unbelievable **9.15 balls per wicket** in high-pressure overs.
+- **Why RR Needs Him:** 
+  Defending 12–14 runs at the Sawai Mansingh Stadium in Jaipur requires yorker execution that denies boundary access. Pathirana's sling action paired with Sandeep Sharma's precision gives RR the most clinical death-bowling unit in the IPL.
+
+---
+
+### 4. 30–60 Second Video / Reel Script (For Social Media or Video Upload)
+
+*(If you record a short video or voiceover for Instagram / LinkedIn / YouTube)*
+
+> **[0:00 - 0:10] Hook:**  
+> *"Who is truly the most clutch player in T20 cricket when the game is on the line? For Rajasthan Royals' SupeRR Selector Season 2, we analyzed over 200,000 deliveries to find out!"*
+> 
+> **[0:10 - 0:25] The Problem & The Math:**  
+> *"Pressure isn't just the 20th over. It's when win probability swings on a knife's edge. We trained a machine learning model to calculate a real-time Cricket Pressure Index (CPI), combining Win Probability Leverage with steep run rate strain and collapse situations."*
+> 
+> **[0:25 - 0:45] The Big Insight:**  
+> *"Our biggest breakthrough was solving the 'Baseline Distortion Paradox'. We discovered that IPL pressure overs average nearly 10 runs per over. By calibrating for match format and death overs, we proved why players like Matheesha Pathirana and Jos Buttler don't just survive pressure—they dominate it."*
+> 
+> **[0:45 - 0:60] The Rajasthan Royals Fit & Outro:**  
+> *"Our top auction pick for RR in 2027? Shashank Singh to solidify the middle order with a 48.4 clutch average, and Pathirana to shut down the death overs. Check out our full interactive dashboard and report. Halla Bol!"*
+
+---
+
+### 5. Ready-to-Post Social Media Captions
+
+#### 📌 LinkedIn Post Copy:
+> Excited to submit our solution for the **Rajasthan Royals SupeRR Selector Season 2** hackathon! 🏏📊  
+> 
+> We tackled the question: *Can data objectively identify the most reliable players under pressure?*  
+> Analyzing 200,999 deliveries across 883 IPL and T20I matches (2022–2026), we engineered:  
+> 1️⃣ A Gradient-Boosted Win Probability Leverage Index to quantify real-time pressure (CPI).  
+> 2️⃣ Format-Calibrated Contextual Par (FCCP) to benchmark players against situational expectations rather than misleading overall averages.  
+> 3️⃣ An interactive War Room Dashboard to evaluate tactical fit for Rajasthan Royals ahead of the IPL 2027 auction.  
+> 
+> Top picks backing the Royals squad: **Shashank Singh** (48.4 clutch average) and **Matheesha Pathirana** (9.15 balls/wkt in death overs).  
+> 
+> Huge thanks to @rajasthanroyals and @unstop.world for this war-room data challenge!  
+> #SupeRRSelector #RajasthanRoyals #CricketAnalytics #DataScience #MachineLearning #HallaBol
+
+#### 📸 Instagram / Reel Caption:
+> Cracking the pressure code for @rajasthanroyals! 👑⚡  
+> Built an ML model across 200,000+ balls to identify the most clutch match-winners for the IPL 2027 Auction.  
+> Who rises when the game is on the line? Check out the breakdown! 🔥  
+> Tagging: @rajasthanroyals @unstop.world  
+> #SupeRRSelector #RajasthanRoyals #HallaBol #IPL #CricketAnalytics
