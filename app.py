@@ -343,6 +343,15 @@ elif menu == "📑 Methodology & Formulas":
     - **Strike Rate Lift** = $SR_{\text{observed}} - SR_{\text{par}}$.
 
     ### 3. Empirical Bayes Shrinkage
-    All rates are regularized with prior weight $K = 50$ balls to protect against small-sample noise:
-    $$\text{Shrunk Rate} = \frac{N_{\text{balls}} \cdot \text{Observed} + K \cdot \text{LeaguePar}}{N_{\text{balls}} + K}$$
-    """)
+   st.markdown(
+    r"""
+    All rates are regularized with prior weight $K = 50$ balls
+    to protect against small-sample noise:
+    """
+)
+
+st.latex(
+    r"\text{Shrunk Rate} = "
+    r"\frac{N_{\text{balls}}\cdot \text{Observed} + "
+    r"K\cdot \text{LeaguePar}}{N_{\text{balls}}+K}"
+))
